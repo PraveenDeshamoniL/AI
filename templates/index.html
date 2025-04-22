@@ -1,0 +1,11 @@
+
+<!DOCTYPE html><html><body class="container py-5">
+<h2>🔐 Scan Dashboard</h2>
+<form method="POST" enctype="multipart/form-data">
+<input name="url" placeholder="Enter URL to scan"><br>
+<input type="file" name="file"><br>
+<button type="submit">Scan</button>
+</form>
+{% if result %}<div>{{ result }}</div>{% endif %}
+<a href="/dashboard">📊 Admin Dashboard</a> | <a href="/logout">Logout</a>
+</body></html>

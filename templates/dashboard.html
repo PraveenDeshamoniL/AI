@@ -1,0 +1,9 @@
+
+<!DOCTYPE html><html><body class="container py-5">
+<h2>📊 Admin Dashboard</h2>
+<table border="1"><tr><th>User</th><th>URL</th><th>Malware</th><th>Time</th></tr>
+{% for log in logs %}<tr>
+<td>{{ log.user.email }}</td><td>{{ log.url }}</td><td>{{ log.malware_result }}</td><td>{{ log.timestamp }}</td>
+</tr>{% endfor %}</table>
+<a href="/">← Back</a>
+</body></html>

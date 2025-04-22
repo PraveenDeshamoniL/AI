@@ -1,0 +1,11 @@
+
+flask
+flask-login
+flask-wtf
+flask-talisman
+pyotp
+stripe
+joblib
+scikit-learn
+flask_sqlalchemy
+flask-limiter
